@@ -1,0 +1,24 @@
+
+# --- Segredos: NUNCA devem ir para o GitHub ---
+.streamlit/secrets.toml
+secrets.toml
+.env
+# chave JSON da conta de serviço do Google
+*.json
+*.pem
+*.key
+
+# --- Dados dos convidados ---
+confirmacoes.csv
+*.csv
+*.xlsx
+
+# --- Ambiente e lixo local ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+.vscode/
+
